@@ -54,3 +54,57 @@
 - **Icons & Loader:** lucide-react  
 
 ---
+
+1. **Clone the repository**:
+
+```bash
+git clone https://github.com/Whizz75/critiq.git
+cd critiq
+Install dependencies:
+
+npm install
+Setup Firebase:
+
+Create a Firebase project
+
+Enable Firestore & Authentication (Google sign-in)
+
+Create a .env file at the root:
+
+VITE_FIREBASE_API_KEY=your_api_key
+VITE_FIREBASE_AUTH_DOMAIN=your_auth_domain
+VITE_FIREBASE_PROJECT_ID=your_project_id
+VITE_FIREBASE_STORAGE_BUCKET=your_storage_bucket
+VITE_FIREBASE_MESSAGING_SENDER_ID=your_messaging_sender_id
+VITE_FIREBASE_APP_ID=your_app_id
+VITE_OMDB_API_KEY=your_omdb_api_key
+
+Start development server:
+
+npm run dev
+```
+
+Usage
+Browse movies: Home page shows highlighted movies
+
+Search movies: Navigate to /movies and use the instant search bar
+
+Movie details: Click “Details” to see full information and add reviews
+
+Profile: Click on your user avatar to see your profile, previous reviews, and average rating
+
+Review management: Edit or delete reviews directly from movie details or profile page
+
+Future Improvements
+Add user avatars for reviews
+
+Implement pagination or infinite scroll for reviews
+
+Add genre filters in search
+
+Implement average rating visualizations per movie
+
+Enable social sharing for reviews
+
+Author
+Harry Ntsekhe – Faculty of ICT, Limkokwing University of Creative Technology
