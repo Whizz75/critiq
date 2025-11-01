@@ -1,16 +1,56 @@
-# React + Vite
+# Critiq 🎬 – Modern Movie Review Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Critiq** is a modern, interactive movie review platform that lets users explore, rate, and review movies. Powered by the OMDb API and Firebase, Critiq offers a seamless experience for movie lovers to discover films, share opinions, and track their reviews.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Table of Contents
 
-## React Compiler
+- [Features](#features)  
+- [Tech Stack](#tech-stack)  
+- [Installation](#installation)  
+- [Usage](#usage)  
+- [Project Structure](#project-structure)  
+- [Screenshots](#screenshots)  
+- [Future Improvements](#future-improvements)  
+- [Author](#author)  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Home Page:**  
+  Highlights popular movies (currently hardcoded for demo) with posters, titles, years, and a “Details” button.  
+
+- **Movie Details Page:**  
+  - Fetches full movie details via OMDb API  
+  - Displays poster, title, plot, director, actors, runtime, awards, ratings, language, etc.  
+  - Users can **add reviews with star ratings**  
+  - Users can **edit or delete their own reviews**  
+  - Reviews are saved in **Firebase Firestore**  
+
+- **Profile Page:**  
+  - Displays user info (photo, name, email)  
+  - Shows all reviews submitted by the user  
+  - Calculates and displays **average rating** across all reviews  
+  - Users can **edit or delete reviews directly from their profile**  
+
+- **Movies Page (Instant Search):**  
+  - Users can search any movie title  
+  - **Instant search** (debounced) for fast feedback  
+  - Results show movie poster, title, year, and “Details” button  
+
+- **Authentication:**  
+  - Google sign-in powered by Firebase Authentication  
+  - Only logged-in users can post, edit, or delete reviews  
+
+---
+
+## Tech Stack
+
+- **Frontend:** React, React Router, Shadcn UI, Tailwind CSS  
+- **Backend & Database:** Firebase (Authentication + Firestore)  
+- **API:** [OMDb API](http://www.omdbapi.com/) for movie data  
+- **Icons & Loader:** lucide-react  
+
+---
