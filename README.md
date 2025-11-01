@@ -9,9 +9,7 @@
 - [Features](#features)  
 - [Tech Stack](#tech-stack)  
 - [Installation](#installation)  
-- [Usage](#usage)  
-- [Project Structure](#project-structure)  
-- [Screenshots](#screenshots)  
+- [Usage](#usage) 
 - [Future Improvements](#future-improvements)  
 - [Author](#author)  
 
@@ -95,7 +93,7 @@ Profile: Click on your user avatar to see your profile, previous reviews, and av
 
 Review management: Edit or delete reviews directly from movie details or profile page
 
-Future Improvements
+## Future Improvements
 Add user avatars for reviews
 
 Implement pagination or infinite scroll for reviews
@@ -106,5 +104,5 @@ Implement average rating visualizations per movie
 
 Enable social sharing for reviews
 
-Author
+## Author
 Harry Ntsekhe – Faculty of ICT, Limkokwing University of Creative Technology
