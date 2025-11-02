@@ -22,7 +22,7 @@ export default function Navbar() {
           to="/"
           className="flex items-center gap-2"
         >
-          <img src="/src/assets/logo.png" alt="logo" className="w-12"/>
+          <img src="/logo.png" alt="logo" className="w-12"/>
           <p className="text-2xl font-bold bg-gradient-to-r from-indigo-500 to-purple-600 bg-clip-text text-transparent">Critiq</p>
         </Link>
 
@@ -49,7 +49,7 @@ export default function Navbar() {
           {user && (
             <div className="flex items-center space-x-3">
               <img
-                src="/src/assets/avatar.png"
+                src="/avatar.png"
                 alt="avatar"
                 className="w-8 h-8 rounded-full border border-border"
               />
