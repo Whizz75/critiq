@@ -96,6 +96,9 @@ export default function Navbar() {
           >
             Profile
           </Link>
+          <Link to="/movies" className="text-sm text-muted-foreground hover:text-indigo-600">
+            More Movies
+          </Link>
 
           <ThemeToggle />
 
