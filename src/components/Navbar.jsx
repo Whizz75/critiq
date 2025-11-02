@@ -96,7 +96,11 @@ export default function Navbar() {
           >
             Profile
           </Link>
-          <Link to="/movies" className="text-sm text-muted-foreground hover:text-indigo-600">
+          <Link 
+            to="/movies" 
+            className="block text-muted-foreground hover:text-indigo-600"
+            onClick={() => setIsOpen(false)}
+          >
             More Movies
           </Link>
 
