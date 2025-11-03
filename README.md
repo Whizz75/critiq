@@ -52,7 +52,7 @@
 - **Icons & Loader:** lucide-react  
 
 ---
-
+## Installation
 1. **Clone the repository**:
 
 ```bash
@@ -82,7 +82,7 @@ Start development server:
 npm run dev
 ```
 
-Usage
+## Usage
 Browse movies: Home page shows highlighted movies
 
 Search movies: Navigate to /movies and use the instant search bar
